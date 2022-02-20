@@ -1,0 +1,40 @@
+# builds
+dist
+.next
+.swc
+output
+.webpack
+out
+
+# deps
+node_modules
+package-lock.json
+yarn.lock
+!/yarn.lock
+
+# logs
+*.log
+pids
+*.cpuprofile
+
+# coverage
+.nyc_coverage
+coverage
+
+# editors
+**/.idea
+**/.#*
+.DS_Store
+.env
+
+# Vercel
+.vercel
+.now
+
+# cache
+.tsbuildinfo
+tsconfig.tsbuildinfo
+.eslintcache
+
+# Sentry
+.sentryclirc

@@ -1,0 +1,27 @@
+{
+  "name": "raytrack",
+  "main": "./src/index.ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Mike Vercoelen <mike.vercoelen@gmail.com",
+  "keywords": [
+    "webgl",
+    "capture",
+    "raytrack",
+    "recorder",
+    "renderer",
+    "webgl2"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/downloadjs": "^1.4.3",
+    "downloadjs": "^1.4.7",
+    "nanoid": "^3.3.1",
+    "webm-writer": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
